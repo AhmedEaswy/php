@@ -1,0 +1,35 @@
+body {
+    font-family:arial;
+    margin:0;
+    padding:0;
+}
+
+/*start grid*/
+.container {
+    width:1170px;
+    margin:auto;
+    padding:0 15px;
+    position: relative;
+	height:100%;
+	overflow:hidden;
+    @media #{$minSmall} {
+        width:720px;
+    }
+    @media #{$minMedium} {
+        width:960px;
+    }
+    @media #{$minLarge} {
+        width:1170px;
+    }
+	@media #{$maxMobile} {
+		width:100%;			
+	}
+}
+/*end grid*/
+
+form .form-group input{
+    width:100%;
+    border-radius:10px;
+    border:#acacac;
+    color:#333;
+}
